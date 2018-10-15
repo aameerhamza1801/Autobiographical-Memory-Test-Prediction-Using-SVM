@@ -51,4 +51,7 @@ For further analyzing ROC curve is drawn for all classes to see how good each cl
 It can be seen that except class 3 i.e. categoric memory, every other class is identified clearly. The reason can be seen in 
 the SVM.ipyn file where all the top uni and bigrams for all 5 classes have been output and it can be seen that class three 
 have very similar unigrams as are in other classes making it difficult for the algorithm to identify it.
-A better accuracy can be achieved by increasing the samples for class 3 or increase the dataset in general.
+For better accuracies
+
+	Increase the dataset
+	Distribute the datset for all the classes
