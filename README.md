@@ -45,3 +45,5 @@ The classification is applied to just FAMT1 column i.e. on a very small data. Yo
 
 The results are quite appealing as the accuracy is 73 percent with just 320 responses used for both training and testing. 
 For further analyzing ROC curve is drawn for all classes to see how good each class is identified.
+
+![](images/AMT.jpg)
