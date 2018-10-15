@@ -39,7 +39,7 @@ For this project we only used FAMT and cod FAMT columns.
 	FAMT1 - FAMT15: responses on the future thinking task, for 15 different cue words. 
 	codFAMT1-codFAMT15: manually coded scores
 
-The classification is applied to just FAMT1 column i.e. on a very small data. You can apply it on all 15 columns for further accuracy.
+The classification is applied to just FAMT1 column (happy memories) i.e. on a very small data. You can apply it on all 15 columns for further accuracy.
 
 # Results
 
@@ -47,3 +47,8 @@ The results are quite appealing as the accuracy is 73 percent with just 320 resp
 For further analyzing ROC curve is drawn for all classes to see how good each class is identified.
 
 ![](images/AMT.JPG)
+
+It can be seen that except class 3 i.e. categoric memory, every other class is identified clearly. The reason can be seen in 
+the SVM.ipyn file where all the top uni and bigrams for all 5 classes have been output and it can be seen that class three 
+have very similar unigrams as are in other classes making it difficult for the algorithm to identify it.
+A better accuracy can be achieved by increasing the samples for class 3 or increase the dataset in general.
